@@ -14,3 +14,9 @@ Instance variables and instance methods are class members that are bound to an o
 and they are created and instantiated when the object is instantiated.
 
 Every time you instantiate a new object from a class, you get a new copy of each of the class's instance variables.
+
+#### Static Initialization Block:
+Similar to a regular  Static Initialization block, but the code in this block is executed only once when the class is loaded in the JVM,
+while for regular  Static Initialization block, the code is executed whenever we instantiate a new object.
+
+**In short STATIC just binds a variable/method/block to the class**

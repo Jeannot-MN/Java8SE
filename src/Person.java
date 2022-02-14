@@ -1,5 +1,9 @@
 public class Person {
 
+    static {
+        System.out.println("Unfortunately I only run once when the class is loaded");
+    }
+
     {
         this.name  = "Init Block";
         System.out.println(this.name);
