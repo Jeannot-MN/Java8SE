@@ -20,3 +20,16 @@ Similar to a regular  Static Initialization block, but the code in this block is
 while for regular  Static Initialization block, the code is executed whenever we instantiate a new object.
 
 **In short STATIC just binds a variable/method/block to the class**
+
+#### Packages:
+Just away to organize your code ,avoid naming conflicts, help control access to the code.
+The package statement should always be listed at the top of the file.
+it is not recommended that you add classes to the default package, due to namespace collisions.
+
+In Java imports do not impact the size of your application but may impact compilation time.
+import * does not include classes in sub-packages.
+
+java.lang is imported by default
+
+The classpath is a system variable that allows you to tell the compiler and the class loader where you store your files
+(the bytecode and the other application files).
