@@ -6,13 +6,16 @@ public class Person {
     }
 
     private String name = "Amen";
+    static int count = 0;
 
     public Person() {
         System.out.println("When I call constructor "+ this.name);
+        count += 1;
+        System.out.println("This is person number "+ count);
     }
 
     public Person(String name) {
-        System.out.println("When I call constructor "+ this.name);
+        this();
         this.name = name;
     }
 
