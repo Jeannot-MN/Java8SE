@@ -14,6 +14,11 @@ public class HelloWorld {
         // but created a reference to NOTHING
         Person person3 = null;
         person3.speak();
-        System.out.println(person3.count);;
+        System.out.println(person3.count);
+
+
+        //EVEN MORE AMAZING 🤣🤣🤣🤣
+        person3.count = 7;
+        System.out.println(person3.count);
     }
 }
