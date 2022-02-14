@@ -26,4 +26,8 @@ public class Person {
     public void setName(String name) {
         this.name = name;
     }
+
+    public static void speak(){
+        System.out.println("I can't really say much");
+    }
 }
