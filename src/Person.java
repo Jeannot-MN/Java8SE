@@ -1,3 +1,7 @@
+/**
+ * @author Jeannot
+ * This is just a class to reprent a person that is interrating with the system
+ */
 public class Person {
 
     static {
@@ -18,6 +22,9 @@ public class Person {
         System.out.println("This is person number "+ count);
     }
 
+    /**
+     * @param name the name of the person
+     * */
     public Person(String name) {
         this();
         this.name = name;
