@@ -33,3 +33,6 @@ java.lang is imported by default
 
 The classpath is a system variable that allows you to tell the compiler and the class loader where you store your files
 (the bytecode and the other application files).
+
+#### Primitives:
+In Java we have 8 primitives: **byte, short, int, long, float, double, boolean, char**
