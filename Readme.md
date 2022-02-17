@@ -40,3 +40,6 @@ In Java we have 8 primitives: **byte, short, int, long, float, double, boolean, 
 ### Operators:
 ##### Binary operators:
 Binary operators are <, >, <=, >=, !, !=, ==
+
+y = y++ ; y will keep the old value;
+y = ++y; y will be incremented;
