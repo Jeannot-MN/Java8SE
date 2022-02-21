@@ -13,7 +13,7 @@ public class Person {
         System.out.println(this.name);
     }
 
-    private String name = "Amen";
+    private String name = "The Name";
     static int count = 0;
 
     public Person() {

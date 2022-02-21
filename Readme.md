@@ -62,3 +62,9 @@ StringBuffer is less efficient than StringBuilder.
 In Java variables are passed by value.
 In case of a primitive a copy of the primitive is made.
 In case of an object a copy of a reference is made. 
+
+### Access Modify
+- **public**: Accessible from anywhere.
+- **private**: Accessible only from the declaring class.
+- **protected**: Accessible from the declaring class, from any class in the same package and any extending class.
+- **default**: Accessible from the declaring class and from any class in the same package.
