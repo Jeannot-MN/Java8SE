@@ -3,7 +3,8 @@ public class HelloWorld {
     {
         System.out.println("This line is from the initialization block");
     }
-    public static  void main(String ...args){
+
+    public static void main(String... args) {
         Person person = new Person();
         System.out.println(person.getName());
 
@@ -19,6 +20,19 @@ public class HelloWorld {
 
         //EVEN MORE AMAZING 🤣🤣🤣🤣
         person3.count = 7;
+
+        person:
         System.out.println(person3.count);
+
+
+        //Labels
+        outer_loop:
+        while (true) {
+            int z = 0;
+            while(true){
+                if(z >= 10) break outer_loop;
+                System.out.println(z++);
+            }
+        }
     }
 }
