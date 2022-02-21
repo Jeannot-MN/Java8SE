@@ -34,5 +34,14 @@ public class HelloWorld {
                 System.out.println(z++);
             }
         }
+
+        //YES We are passing by value (Well in this case String are immutable that's why not change)
+        String name = "John";
+        tryChangeTheValue(name);
+        System.out.println(name);
+    }
+
+    private static void tryChangeTheValue(String value){
+        value += " You see I am new!!!!";
     }
 }

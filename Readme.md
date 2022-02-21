@@ -48,3 +48,17 @@ y = ++y; y will be incremented;
 
 ### Enums
 Did you know about ordinal on Enums??
+
+### Strings
+String immutable in Java, thus if your program does a lot of string manipulations, you might have a lot of unreferenced
+object in memory thus impacting performance because the garbage collector will be running quite often.
+To go around that developers are advised to use the **StringBuilder** and **StringBuffer** classes as they provide mutable
+strings.
+
+StringBuffer is thread-safe whereas StringBuilder is not.
+StringBuffer is less efficient than StringBuilder.
+
+### Passing by value/reference
+In Java variables are passed by value.
+In case of a primitive a copy of the primitive is made.
+In case of an object a copy of a reference is made. 
