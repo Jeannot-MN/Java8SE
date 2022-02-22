@@ -68,3 +68,22 @@ In case of an object a copy of a reference is made.
 - **private**: Accessible only from the declaring class.
 - **protected**: Accessible from the declaring class, from any class in the same package and any extending class.
 - **default**: Accessible from the declaring class and from any class in the same package.
+
+### Method signature
+a method signature is the method name plus its parameters
+
+### Final:
+- Used before a variable to make the variable constant
+- Used to before a method to so that the method cannot be overridden.
+- Used before a class to  make that class unextendable.
+
+### Interfaces:
+An interface with no method at all is called a **Marker interface**
+An interface that has only one method is called a **Functional interface**
+
+### Lambdas:
+A predicate is a functional interface to handle a very common scenario: a test method is invoked with a parameter 
+resulting in a boolean outcome. 
+
+### Inheritance rule:
+Every Parent is a Child but not every Child is a Parent

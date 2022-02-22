@@ -1,3 +1,5 @@
+import java.util.function.Predicate;
+
 public class HelloWorld {
 
     {
@@ -39,9 +41,16 @@ public class HelloWorld {
         String name = "John";
         tryChangeTheValue(name);
         System.out.println(name);
+
+        System.out.println(isAllowedToAccessVenue(p-> p.getName().equalsIgnoreCase("The Name"), person));
     }
 
     private static void tryChangeTheValue(String value){
         value += " You see I am new!!!!";
+    }
+
+
+    private static boolean isAllowedToAccessVenue(Predicate<Person> predicate, Person person){
+        return predicate.test(person);
     }
 }
