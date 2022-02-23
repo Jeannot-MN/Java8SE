@@ -87,3 +87,18 @@ resulting in a boolean outcome.
 
 ### Inheritance rule:
 Every Parent is a Child but not every Child is a Parent
+
+### Arrays:
+A homogeneous collection of integer-indexed objects
+**System.arraycopy(source[], sourceFromIndex, destination, destFromIndex, howFarDoIgo)** help with copying between arrays
+
+### Throwable:
+It is an event that disrupt the execution of a program
+
+we have two types:
+- Error: Serious problem that we typically do not recover from e.g. StackOverflowError
+- Exception: Event that we might need to capture, react to, or try recover from e.g. NullPointerException
+General Exceptions must be caught after specific exceptions or else not compilation
+
+**Checked Exception**: We have required to handle these Exceptions (try-catch)
+**UnChecked Exception**: We have do not have to to handle these Exceptions, we get them n=by extending **RuntimeException**
