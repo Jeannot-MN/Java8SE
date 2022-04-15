@@ -24,7 +24,7 @@ public class Person {
     final static public int mm = 2;
     final public static int n = 0;
 
-    public Person() {
+    Person() {
         System.out.println("When I call constructor " + this.name);
         count += 1;
         System.out.println("This is person number " + count);

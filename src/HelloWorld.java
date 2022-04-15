@@ -7,6 +7,8 @@ public class HelloWorld {
     }
 
     public static void main(String... args) {
+
+//        Test1.main(args);
         Person person = new Person();
         System.out.println(person.getName());
 
@@ -31,8 +33,8 @@ public class HelloWorld {
         outer_loop:
         while (true) {
             int z = 0;
-            while(true){
-                if(z >= 10) break outer_loop;
+            while (true) {
+                if (z >= 10) break outer_loop;
                 System.out.println(z++);
             }
         }
@@ -42,15 +44,15 @@ public class HelloWorld {
         tryChangeTheValue(name);
         System.out.println(name);
 
-        System.out.println(isAllowedToAccessVenue(p-> p.getName().equalsIgnoreCase("The Name"), person));
+        System.out.println(isAllowedToAccessVenue(p -> p.getName().equalsIgnoreCase("The Name"), person));
     }
 
-    private static void tryChangeTheValue(String value){
+    private static void tryChangeTheValue(String value) {
         value += " You see I am new!!!!";
     }
 
 
-    private static boolean isAllowedToAccessVenue(Predicate<Person> predicate, Person person){
+    private static boolean isAllowedToAccessVenue(Predicate<Person> predicate, Person person) {
         return predicate.test(person);
     }
 }
